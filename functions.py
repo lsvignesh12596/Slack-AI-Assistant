@@ -1,5 +1,4 @@
 import os
-
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from dotenv import find_dotenv, load_dotenv
@@ -45,4 +44,4 @@ def draft_email(user_input, name = "Vignesh"):
 
     return response
 
-# draft_email("Hi, are you open for projects ?")
+draft_email("Hi, are you open for projects ?")
