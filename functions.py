@@ -44,4 +44,4 @@ def draft_email(user_input, name = "Vignesh"):
 
     return response
 
-draft_email("Hi, are you open for projects ?")
+# draft_email("Hi, are you open for projects ?")
